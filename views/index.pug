@@ -1,0 +1,10 @@
+doctype html
+html
+  head
+    title Scraped Headless Browser Resources
+  body
+
+    h1 Collected Cookies
+    ul
+      each val, index in data.cookies
+        li= index + JSON.stringify(val)
